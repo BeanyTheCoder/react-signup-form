@@ -19,7 +19,7 @@ export default function SignupForm() {
     currentValidation.splice(0, 1,password.length >= 5);
     currentValidation.splice(1, 1,password.search(/[A-Z]/) > -1);
     currentValidation.splice(2, 1,password.search(/[0-9]/) > -1);
-    currentValidation.splice(3, 1,password.search(/[\-$&+,:;=?@#!]/) > -1);
+    currentValidation.splice(3, 1,password.search(/[\-$&+,:;=?@#!%]/) > -1);
 
     setStrength(currentValidation.reduce((accum, current) => accum + current));
 
@@ -61,7 +61,7 @@ export default function SignupForm() {
           <li>{validation[0] ? "✅" : "❌"} Must be at least 5 characters</li>
           <li>{validation[1] ? "✅" : "❌"} Must contain a capital letter</li>
           <li>{validation[2] ? "✅" : "❌"} Must contain a number</li>
-          <li>{validation[3] ? "✅" : "❌"} Must contain: -$&+,:;=?@#!</li>
+          <li>{validation[3] ? "✅" : "❌"} Must contain: -$&+,:;=?@#!%</li>
         </ul>
       </div>
       <div className="submit">
