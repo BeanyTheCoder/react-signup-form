@@ -23,8 +23,9 @@ A simple signup form built with React.js
 
 To get started with the React Signup Form, follow these steps:
 
-1. Clone the repository.
-2. Navigate to the project directory.
+1. Clone the repository using `git clone https://github.com/BeanyTheCoder/react-signup-form.git`.
+
+2. Navigate to the project directory using `cd  react-signup-form`.
 3. Install dependencies with `npm install`.
 4. Run the app with `npm run dev`.
 
