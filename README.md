@@ -30,7 +30,7 @@ To get started with the React Signup Form, follow these steps:
 
 ## Technologies Used 🛠️
 
-- Reactjs
+- React.js
 - HTML & CSS
 
 ## License 📝
