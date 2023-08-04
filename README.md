@@ -1,4 +1,4 @@
-# React Signup Form 🚀
+# React Signup Form 📜
 
 A simple signup form built with React.js
 
