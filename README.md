@@ -1,6 +1,6 @@
 # React Signup Form 🚀
 
-A simple signup form built with React.js
+A simple signup form built with React.js.
 
 ## Features ✨
 
@@ -19,7 +19,7 @@ A simple signup form built with React.js
 
 - **Cool Design**: An attractive user interface inspired by a YouTube video from Fireship. [Check out the inspiration](https://www.youtube.com/watch?v=yrrw6KdGuxc&list=PPSV).
 
-## Installation & Usage 🚀
+## Installation & Usage 🛠️
 
 To get started with the React Signup Form, follow these steps:
 
@@ -39,8 +39,8 @@ This project is licensed under the [LICENSE](link-to-license-file).
 
 ## Acknowledgments 🙏
 
-Thanks to [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA) for inspiration for the design of the signup form
+Thanks to [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA) for inspiration for the design of the signup form.
 
 ## Contact 📧
 
-For any questions or feedback, feel free to reach out to me at alexanderafoko@gmail.com
+For any questions or feedback, feel free to reach out to me at alexanderafoko@gmail.com.
