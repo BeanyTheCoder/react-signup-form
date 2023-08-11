@@ -11,6 +11,7 @@
   --accent: #0224ce;
   --dark-grey: #8d99ae;
   --light: #edf2f4;
+  --dark: #0b0b0b;
 }
 
 #root {
@@ -22,13 +23,13 @@
 }
 
 .card-container {
-  background-color: #0b0b0b;
+  background-color: var(--dark);
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-size: 1rem;
   padding: 3em;
-  width: min(450px, 90%);
+  width: min(450px, 100%);
 }
 
 .card-container h1 {
@@ -40,12 +41,12 @@ form input {
   width: 100%;
   height: 40px;
 
-  background-color: #0b0b0b;
+  background-color: var(--dark);
   border: none;
 
   padding: 0 1em;
 
-  color: var(--light)
+  color: var(--light);
 }
 
 form input:focus {
@@ -109,7 +110,6 @@ form .field:focus-within::after {
   transform: scaleX(1);
 }
 
-
 form .password-strength {
   display: flex;
   width: 100%;
@@ -123,7 +123,7 @@ form .password-strength .bar {
   flex-basis: 25%;
 }
 
-form .password-strength-params ul li{
+form .password-strength-params ul li {
   color: var(--light);
   list-style: none;
 }
@@ -160,7 +160,7 @@ form .submit {
 }
 
 form .submit input {
-  background-color: #0b0b0b;
+  background-color: var(--dark);
   cursor: pointer;
   position: relative;
 }
@@ -170,8 +170,16 @@ form .submit:hover input {
 }
 
 form .field button {
-  background-color: #0b0b0b;
+  background-color: var(--dark);
   border: 0;
   cursor: pointer;
   padding: 0 0.8em;
+}
+
+@media screen and (max-width: 450px) {
+  .card-container {
+    height: 100%;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+  }
 }
