@@ -29,6 +29,10 @@ To get started with the React Signup Form, follow these steps:
 3. Install dependencies with `npm install`.
 4. Run the app with `npm run dev`.
 
+## Screenshots 📷
+
+
+
 ## Technologies Used 🛠️
 
 - React.js
