@@ -31,7 +31,17 @@ To get started with the React Signup Form, follow these steps:
 
 ## Screenshots 📷
 
+_Form image_
 
+![image of form](./readme-images/form.png)
+
+_Form filled image_
+
+![image of form filled](./readme-images/form-filled.png)
+
+## Links 🔗
+
+Live site link: [here](https://beanythecoder.github.io/react-todo-app/)
 
 ## Technologies Used 🛠️
 
@@ -44,7 +54,11 @@ This project is licensed under the [LICENSE](link-to-license-file).
 
 ## Acknowledgments 🙏
 
-Thanks to [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA) for inspiration for the design of the signup form.
+- Thanks to [Fireship](https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA) for inspiration for the design of the signup form.
+
+- Thanks to [Haikei](https://app.haikei.app/) for the background image.
+
+- I used [Glass css](https://css.glass/) for the glassmorphic card
 
 ## Contact 📧
 
